@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #332f2a;
+    color: white;
+    font-family: 'Press Start 2p',sans-serif;
+}
+header{
+    height: 280px;
+    width: 100%;
+    /* background-color: rgb(119, 113, 105); */
+    position: fixed;
+    border-bottom-color: white;
+    border:  5px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+header h1{
+    margin-left: 190px;
+    margin-top: 110px;
+    display: fixed;
+    font-size: 230%;
+}
+header button{
+    display: flex;
+    margin-top: -110px;
+    margin-left: 20px;
+    height: 40px;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border-color: rgb(110, 233, 233);
+    cursor: pointer;
+    position: fixed;
+    font-size: 110%;
+}
+header p{
+    margin-left: 530px;
+    margin-top: -89px;
+    font-size: 110%;
+    position: fixed;
+}
+.secretNumber{
+    float: left;
+    color: black;
+    font-size: 550%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 150px;
+    background-color: aliceblue;
+    margin-left: 270px;
+    margin-top: 65px;
+    position: fixed;
+}
+.selectNumber{
+    text-align: center;
+    font-size: 150%;
+    margin-top: 415px;
+    width: 120px;
+    height: 50px;
+    margin-left: 90px;
+    border-radius: 7%;
+    border-color: rgb(92, 202, 165);
+}
+.checkNumber{
+    margin-top: 13px;
+    margin-left: 114px;
+    height: 40px;
+    width: 70px;
+    border-radius: 10%;
+}
+.left{
+    /* background-color: rgb(16, 17, 17); */
+    width: 50%;
+    height: 640px;
+    float: left;
+}
+.right{
+    /* background-color: rgb(77, 161, 161); */
+    width: 50%;
+    float: left;
+    height: 640px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.message{
+    margin-top: 180px;
+    margin-left: -50px;
+    position: fixed;
+    font-size: large;
+}
+.label-score{
+    margin-top: 300px;
+    margin-left: -100px;
+    position: fixed;
+    font-size: large;
+}
+.label-highscore{
+    margin-top: 350px;
+    margin-left: -80px;
+    font-size: large;
+}
