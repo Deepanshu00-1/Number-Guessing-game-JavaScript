@@ -109,3 +109,84 @@ header p{
     margin-left: -80px;
     font-size: large;
 }
+@media(max-width: 600px){
+    header{
+        height: 280px;
+        width: 100%;
+        /* background-color: rgb(119, 113, 105); */
+        position: fixed;
+        border-bottom-color: white;
+        border:  5px solid;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    header h1{
+        margin-left: 80px;
+        margin-top: 110px;
+        display: fixed;
+        font-size: 180%;
+    }
+    header button{
+        display: flex;
+        margin-top: -120px;
+        margin-left: 20px;
+        height: 40px;
+        width: 80px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        border-color: rgb(110, 233, 233);
+        cursor: pointer;
+        position: fixed;
+        font-size: 110%;
+    }
+    header p{
+        margin-left: 230px;
+        margin-top: -110px;
+        font-size: 110%;
+        position: fixed;
+    }
+    .secretNumber{
+        float: left;
+        color: black;
+        font-size: 550%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 120px;
+        width: 150px;
+        background-color: aliceblue;
+        margin-left: 120px;
+        margin-top: 65px;
+        position: fixed;
+    }
+    .selectNumber{
+        text-align: center;
+        font-size: 150%;
+        margin-top: 440px;
+        width: 120px;
+        height: 50px;
+        margin-left: 30px;
+        border-radius: 7%;
+        border-color: rgb(92, 202, 165);
+    }
+    .checkNumber{
+        margin-top: 20px;
+        margin-left: 55px;
+        height: 40px;
+        width: 70px;
+        border-radius: 10%;
+    }
+    .right{
+        /* background-color: rgb(77, 161, 161); */
+        width: 50%;
+        float: left;
+        height: 640px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 40px;
+    }
+}
